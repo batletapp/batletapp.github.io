@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f6f2">
+    <meta name="description" content="Batlet is a free, open-source macOS menu bar app that keeps the batteries of your Mac, trusted iPhone and iPad, AirPods, and Bluetooth accessories in view.">
+    <title>Batlet — Your batteries, at a glance</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="brand" href="#top" aria-label="Batlet home">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="5" y="9" width="25" height="18" rx="5" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M32 15v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M12 18h11" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span>Batlet</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#get-started">Get started</a>
+        <a class="nav-source" href="https://github.com/niceit/Batlet">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Free and open source for macOS</p>
+          <h1 id="hero-title">Your batteries,<br><em>at a glance.</em></h1>
+          <p class="hero-description">Meet the small menu bar companion that brings your Mac, trusted iPhone and iPad, AirPods, and supported Bluetooth devices together in one view.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://github.com/niceit/Batlet#get-started">Build from source <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="https://github.com/niceit/Batlet">Explore the code <span aria-hidden="true">→</span></a>
+          </div>
+          <p class="hero-meta">macOS 14+ <span aria-hidden="true">·</span> Swift <span aria-hidden="true">·</span> GPLv3</p>
+        </div>
+
+        <div class="hero-visual" aria-label="Illustration of Batlet's grouped device battery view">
+          <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+          <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+          <div class="preview-shell">
+            <div class="preview-menu">
+              <span class="preview-brand">◉ <strong>Batlet</strong></span>
+              <span class="preview-indicator" aria-hidden="true">● ● ●</span>
+            </div>
+            <div class="preview-heading">
+              <span>Connected devices</span>
+              <span>03</span>
+            </div>
+            <div class="device-row">
+              <span class="device-symbol" aria-hidden="true">▣</span>
+              <span class="device-name">MacBook Pro<small>This Mac</small></span>
+              <span class="battery-meter"><span style="width:78%"></span></span>
+              <strong>78%</strong>
+            </div>
+            <div class="device-row">
+              <span class="device-symbol" aria-hidden="true">◉</span>
+              <span class="device-name">AirPods Pro<small>Earbuds &amp; case</small></span>
+              <span class="battery-meter"><span style="width:64%"></span></span>
+              <strong>64%</strong>
+            </div>
+            <div class="device-row">
+              <span class="device-symbol" aria-hidden="true">▯</span>
+              <span class="device-name">iPhone<small>Trusted device</small></span>
+              <span class="battery-meter"><span style="width:91%"></span></span>
+              <strong>91%</strong>
+            </div>
+            <div class="preview-bottom"><span>All charged up, all in one place.</span><span aria-hidden="true">↗</span></div>
+          </div>
+          <span class="preview-caption">Illustrative preview</span>
+        </div>
+      </section>
+
+      <section class="features-section" id="features" aria-labelledby="features-title">
+        <div class="wrap">
+          <div class="section-intro">
+            <p class="eyebrow">The essentials</p>
+            <h2 id="features-title">Battery details where<br>you already look.</h2>
+            <p>Batlet lives in the menu bar. Open it when you need the full picture, and let alerts bring important changes to you.</p>
+          </div>
+          <div class="feature-list">
+            <article class="feature"><span class="feature-number">01</span><div><h3>All your devices, together</h3><p>See your Mac, trusted iPhone or iPad, AirPods, and supported Bluetooth accessories in one compact panel.</p></div></article>
+            <article class="feature"><span class="feature-number">02</span><div><h3>Alerts with purpose</h3><p>Know when a battery runs low, a device finishes charging, or a connection changes.</p></div></article>
+            <article class="feature"><span class="feature-number">03</span><div><h3>Make the view yours</h3><p>Pin, hide, and rename devices. Choose how battery levels and alerts appear.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="get-started wrap" id="get-started" aria-labelledby="start-title">
+        <div>
+          <p class="eyebrow">Open by design</p>
+          <h2 id="start-title">Take a look inside.</h2>
+          <p>Batlet is built in Swift, published under GPLv3, and available to build from source. You can inspect it, improve it, and share your changes under the same license.</p>
+          <a class="text-link" href="https://github.com/niceit/Batlet#get-started">Build Batlet on your Mac <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="start-note">
+          <span class="note-label">A few things to know</span>
+          <p>Bluetooth access is needed for supported accessories. iPhone and iPad battery levels require a device that has already trusted your Mac. Detection depends on what each device exposes to macOS.</p>
+          <a href="https://github.com/niceit/Batlet#show-an-iphone-or-ipad">Read the setup guide <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <div><strong>Batlet</strong><span>Your batteries, at a glance.</span></div>
+        <div class="footer-links"><a href="https://github.com/niceit/Batlet">Source code</a><a href="https://github.com/niceit/Batlet/blob/main/LICENSE">GPLv3 license</a></div>
+      </div>
+    </footer>
+  </body>
+</html>
